@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<!-- Page's intelligence = meta tags -->
+  	<title>Aymeric Bès de Berc's profile</title>
+	<meta name="description" content="This is the profile of Aymeric Bès de Berc">
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Open+Sans&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/2a05c7e8d8.js" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/typed.js"></script>
+  </head>
+  <body>
+	<!-- Page's content = displayed on the page -->
+  	<div class="container">
+<script>
+    function changeImage(imgName)
+  {
+     image = document.getElementById('profilepic');
+     image.src = imgName;
+  }
+</script>
+
+    	<div class="card-white" id="introduction">
+    		<h1>👋 Salut, moi c'est <br> <span class="typedjs"></span></h1>
+    		<script type="text/javascript">
+    			var typed = new Typed('.typedjs', {
+				  strings: ['Aymeric Bès de Berc !'],
+				  typeSpeed: 60,
+				  backSpeed: 60,
+				  loop: false,
+				});
+    		</script>
+			Clique sur ma tête
+			<br>
+			👇
+			<br>		
+			<label for="toggleCheckbox">
+	  			<img src="images/profile-draw.png" class="img-circle" id="profilepic" alt="Aymeric Bès de Berc">
+			</label>
+			<br>
+			<input type="checkbox" id="toggleCheckbox" class="toggleClass" checked>
+			<div class="toggleCard">
+				🎨 Choisi une couleur :
+				<br>
+				<input type="radio" name="reader" value="reader1" checked="checked" onClick="changeImage('images/profile-draw.png');">Original
+				<input type="radio" name="reader" value="reader1"  onClick="changeImage('images/profile-draw-blue.png');">Bleu
+				<input type="radio" name="reader" value="reader1"  onClick="changeImage('images/profile-draw-yellow.png');">Jaune
+				<input type="radio" name="reader" value="reader1"  onClick="changeImage('images/profile-draw-red.png');">Rouge
+				<input type="radio" name="reader" value="reader1"  onClick="changeImage('images/profile-draw-green.png');">Vert
+				<input type="radio" name="reader" value="reader1"  onClick="changeImage('images/profile-draw-purple.png');">Violet
+			</div>
+
+  			<p>Je suis actuellement étudiant au Mastère Spécialisé "Innover et Entreprendre" à l'<strong>ESCP Business School.</strong></p>
+			
+  			<a href="https://www.linkedin.com/in/aymeric-bes-de-berc/" target="_blank" class="btn-blue">Rejoins mon réseau Linkedin !</a>
+  		</div>  
+    	<div class="card-white">
+		    <h2>👨‍💻 EXPERIENCE</h2>
+				<div class="card-white">	
+			        <img src="images/bnp.png" id="bnp">
+				    	<h3>BNP PARIBAS PERSONAL FINANCE</h3>
+				    	<p class="date">(2017-2020)</p>
+				    	<strong>Gestion de Projet IT</strong> 
+				    	<br>
+				    	<strong>ADM (Application Developpement and Maintenance)</strong>
+				</div>
+    	</div>
+    
+	    <div class="card-white">	
+		    <h2>🎓 FORMATION</h2>
+		        <div class="card-white">	
+			        <img src="images/escp.png" id="logo">
+				    	<h3>ESCP Business School</h3>
+				    	<p class="date">(2020-2021)</p> 
+				    <strong>Mastère Spécialisé® Innover et Entreprendre</strong>
+				</div>
+
+		        <div class="card-white">	
+			        <img src="images/isep.svg" id="logo">
+				    	<h3>ISEP</h3>
+				    	<p class="date">(2015-2020)</p> 
+				    <strong>Ecole d'Ingénieur généraliste dans les Technologies du Numérique</strong>
+				</div>
+		</div>
+
+		<div class="card-white">
+		    <h2>📚 HOBBIES</h2>
+	    	<p>
+	    		 <strong>⚽ Football
+	    		 	<br>💻 Informatique
+	    		 	<br>🚀 Entrepreneuriat
+	    		 	<br>🧠 Développement personnel</strong>
+	    	</p>
+		</div>
+    
+	    <div class="card-white">	
+		    <h2>📧 FOLLOW ME</h2>
+		    <ul class="list-inline">
+		    	<li>
+		    		<a href="https://www.facebook.com/aymeric.besdeberc" target="_blank">
+			    		<i class="fab fa-facebook"></i>
+		    		</a>
+		    	</li>
+		    	<li>
+		    		<a href="https://www.instagram.com/aymericb2b/" target="_blank">
+			    		<i class="fab fa-instagram"></i>
+			    	</a>
+		    	</li>
+		    	<li>
+		    		<a href="https://www.linkedin.com/in/aymeric-bes-de-berc/" target="_blank">
+		    			<i class="fab fa-linkedin"></i>
+		    		</a>
+		    	</li>
+		    </ul>
+		</div>
+
+
+
+
